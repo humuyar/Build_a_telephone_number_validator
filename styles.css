@@ -11,7 +11,9 @@
 }
 
 body {
-  background-color: #3b3b4f;
+  background-image: url(assecc/images3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #0a0a23;
 }
@@ -26,7 +28,7 @@ main {
 }
 
 h1 {
-  color: white;
+  color: rgb(24, 23, 23);
   width: 100%;
   max-width: 480px;
   margin: 15px 0;
@@ -40,14 +42,14 @@ h1 {
   height: 460px;
   margin: 30px auto;
   border-radius: 15px;
-  border: 15px solid black;
+  border: 17px solid rgba(3, 80, 86, 0.586);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .phone-background {
-  background-color: black;
+  background-color: rgba(1, 44, 47, 0.586);
   width: 100%;
   height: 25px;
 }
@@ -62,13 +64,14 @@ h1 {
 
 label {
   margin: 10px auto 5px;
+  color: rgb(3, 41, 28);
 }
 
 #user-input {
   display: block;
   margin: 10px auto;
   padding: 5px;
-  border: 1px solid black;
+  border: 1px solid rgba(229, 31, 179, 0.556);
   border-radius: 10px;
   text-align: var(--center-text);
   width: 90%;
@@ -77,7 +80,7 @@ label {
 }
 
 .phone-footer {
-  background-color: black;
+  background-color: rgba(234, 12, 182, 0.308);
   width: 100%;
   height: 40px;
   position: absolute;
@@ -91,7 +94,7 @@ label {
   cursor: pointer;
   width: 100px;
   margin: 10px;
-  color: #0a0a23;
+  color: #151515f4;
   font-size: 18px;
   background-color: #fff;
   background-image: linear-gradient(#fff, #928d86);
