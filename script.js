@@ -4,8 +4,9 @@ const clearBtn = document.getElementById('clear-btn');
 const resultsDiv = document.getElementById('results-div');
 
 const checkValidNumber = (input) => {
+  const originalInput = input;
   if (input === '') {
-    alert('Please provide a phone number');
+   alert('Please provide a phone number');
     return;
   }
   const countryCode = '^(1\\s?)?';
@@ -13,7 +14,7 @@ const checkValidNumber = (input) => {
   const spacesDashes = '[\\s\\-]?';
   const phoneNumber = '[0-9]{3}[\\s\\-]?[0-9]{4}$';
   const phoneRegex = new (RegExp)(
-  `${countryCode}${areaCode}${spacesDashes}${phoneNumber}`
+   `${countryCode}${areaCode}${spacesDashes}${phoneNumber}`
   );
 
   const pTag = document.createElement('p');
