@@ -16,6 +16,8 @@ body {
   background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #0a0a23;
+  height: auto !important;
+  min-height: 100vh;
 }
 
 main {
