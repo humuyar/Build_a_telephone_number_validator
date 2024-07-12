@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --phone-colors: #dfdfe2;
+  --center-text: center;
+  --gray-00: #fff;
+}
+
+body {
+  background-image: url(assecc/images3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0a0a23;
+  height: auto !important;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 10px;
+}
+
+h1 {
+  color: rgb(24, 23, 23);
+  width: 100%;
+  max-width: 480px;
+  margin: 15px 0;
+  text-align: var(--center-text);
+}
+
+.phone-container {
+  position: relative;
+  background-color: var(--phone-colors);
+  width: 250px;
+  height: 460px;
+  margin: 30px auto;
+  border-radius: 15px;
+  border: 17px solid rgba(3, 80, 86, 0.586);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-background {
+  background-color: rgba(1, 44, 47, 0.586);
+  width: 100%;
+  height: 25px;
+}
+
+.phone-camera {
+  background-color: var(--phone-colors);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+label {
+  margin: 10px auto 5px;
+  color: rgb(3, 41, 28);
+}
+
+#user-input {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  border: 1px solid rgba(229, 31, 179, 0.556);
+  border-radius: 10px;
+  text-align: var(--center-text);
+  width: 90%;
+  height: 42px;
+  font-size: 16px;
+}
+
+.phone-footer {
+  background-color: rgba(234, 12, 182, 0.308);
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-styles {
+  cursor: pointer;
+  width: 100px;
+  margin: 10px;
+  color: #151515f4;
+  font-size: 18px;
+  background-color: #fff;
+  background-image: linear-gradient(#fff, #928d86);
+  border-color: #fff;
+  border-width: 3px;
+}
+
+#results-div {
+  overflow-y: auto;
+  height: 265px;
+  width: 100%;
+}
+
+.results-text {
+  font-size: 1.2rem;
+  padding: 5px;
+  text-align: var(--center-text);
+  margin: 10px 0;
+}
